@@ -27,12 +27,13 @@ body{
     margin: auto;
     align-items: center;
     justify-content: space-between;
+    top: 0;
 }
 
 nav ul li{
     list-style-type: none;
     margin: auto;
-    padding: 0 10px;
+    padding: 0 20px;
     display: inline-block;
 
 }
@@ -49,6 +50,7 @@ a:hover{
 .form{
     text-align: center;
     margin: 2rem;
+    margin-bottom: 4rem;
 }
 
 input[type='email']{
@@ -66,7 +68,15 @@ input[type='submit']{
 #about{
     width: 80%;
     margin: auto;
-    
+}
+
+p{
+    margin-bottom: 2.3rem;
+}
+
+#experience{
+    text-align: center;
+    margin: 6rem auto;
 }
 
 #about ul li{
