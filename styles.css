@@ -1,10 +1,10 @@
-*,{
+*{
     padding: 0;
     margin: 0;
 }
 
 html{
-    font-size: 70%;
+    font-size: 60%;
     box-sizing: border-box;
 }
 
@@ -16,19 +16,25 @@ body{
 }
 
 #header-img{
-    width: 10%;
-    border: 10px solid linen;
-    float: left;
-    object-fit: cover;
+    width: 6%;
+    border: 3px solid linen;
+    border-radius: 50%;
+    margin: 10px 10px;
 }
 
-.logo-title{
-    font-family: 'Inter', serif;
-    font-weight: bold;
-    color: linen;
-    font-size: 5.6rem;
-    margin-left: 10px;
-    
+#nav-bar{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin: auto;
+    padding: 0 10px;
+    display: inline-block;
+
 }
 
 a, a:visited{
@@ -36,15 +42,38 @@ a, a:visited{
     text-decoration: none;
 }
 
-nav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline;
-    float: right;
+a:hover{
+    color: rgba(250, 240, 230, 0.639);
 }
 
-.similar{
+.form{
+    text-align: center;
+    margin: 2rem;
+}
+
+input[type='email']{
+    padding: 3px;
+    margin: 20px 10px;
+    font-weight: bold;
+}
+
+input[type='submit']{
+    padding: 3px;
+    font-weight: bold;
+    background-color:rgba(253, 137, 95, 0.962)
+}
+
+#about{
+    width: 80%;
+    margin: auto;
+    
+}
+
+#about ul li{
+    list-style-type: none;
+}
+
+#similar{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
