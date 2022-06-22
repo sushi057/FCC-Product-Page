@@ -27,6 +27,9 @@ body{
     margin: auto;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    background-color: rgb(20, 30, 40);
+    position: fixed;
     top: 0;
 }
 
@@ -50,7 +53,8 @@ a:hover{
 .form{
     text-align: center;
     margin: 2rem;
-    margin-bottom: 4rem;
+    margin-top: 8em;
+    margin-bottom: 2em;
 }
 
 input[type='email']{
@@ -123,6 +127,7 @@ button{
     height: 30px;
     background-color: bisque;
     border-radius: 20px;
+    font-weight: bold;
 }
 
 .footer{
@@ -142,4 +147,10 @@ button{
 .footer p{
     font-size: 1.1rem;
     color: white;
+}
+
+@media only screen and (max-width: 700px) {
+    .experience{
+        width: 20px;
+    }
 }
